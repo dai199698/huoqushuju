@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         // Tencent类是SDK的主要实现类，开发者可通过Tencent类访问腾讯开放的OpenAPI。
         // 其中APP_ID是分配给第三方应用的appid，类型为String。
         mTencent = Tencent.createInstance(APP_ID, this.getApplicationContext());
+        System.out.println("xxxx");
         setContentView(R.layout.activity_main);
     }
 
