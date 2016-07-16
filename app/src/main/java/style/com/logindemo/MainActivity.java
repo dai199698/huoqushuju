@@ -19,6 +19,7 @@ import org.json.JSONObject;
 public class MainActivity extends AppCompatActivity {
 
     public static final String APP_ID = "1104898485";
+    public static final String APP_ID2 = "1104898485";
     UserInfo mInfo;
     //登录的回调接口
     IUiListener loginListener = new BaseUiListener() {
